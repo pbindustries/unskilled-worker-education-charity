@@ -10,7 +10,7 @@ const Content = ({ children }) => (
       />
     </BannerWrapper>
 
-    <h1>Your Crowdfunding Title</h1>
+    <h1>Help us educate the populous!</h1>
 
     <p>
       Hey there. My name is Robin Wieruch and over the last year I have written{' '}
@@ -41,12 +41,12 @@ const Content = ({ children }) => (
 
     <h2>The Pitch</h2>
 
-    <p>Lorem ipsum ...</p>
+    <p>Our goal is to utilize unused puplic resources and volenteer teachers to help educate the frictionally unemployed and anyone else who wants to learn new technological skills.</p>
 
     <h2>Goals and Perks</h2>
 
     <p>
-      This crowd funding campaign runs until ...
+      Help us fund the creation of this charity and the employment of passionate teachers.
     </p>
 
     <ul>
@@ -85,10 +85,6 @@ const Content = ({ children }) => (
         included in the list of backers in the ebook.
       </li>
     </ul>
-
-    <p>
-      Thank you for reading and for your support, Robin Wieruch
-    </p>
 
     {children}
   </div>
